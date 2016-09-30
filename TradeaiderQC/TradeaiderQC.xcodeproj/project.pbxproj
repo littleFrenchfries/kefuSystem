@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77BA4293F0BCD0F6D612B083 /* libPods-TradeaiderQC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB5E742BECA3B21ABFD7394 /* libPods-TradeaiderQC.a */; };
+		D616220C1D9E5376001975D1 /* XSChatMessageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D616220B1D9E5376001975D1 /* XSChatMessageTool.m */; };
+		D616220E1D9E5399001975D1 /* XSChatMessageTool.xib in Resources */ = {isa = PBXBuildFile; fileRef = D616220D1D9E5399001975D1 /* XSChatMessageTool.xib */; };
+		D61622121D9E8282001975D1 /* XSTalkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D61622101D9E8282001975D1 /* XSTalkTableViewCell.m */; };
+		D61622131D9E8282001975D1 /* XSTalkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D61622111D9E8282001975D1 /* XSTalkTableViewCell.xib */; };
+		D63E527C1D92AF4C0083151E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D63E527B1D92AF4C0083151E /* main.m */; };
+		D63E527F1D92AF4C0083151E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D63E527E1D92AF4C0083151E /* AppDelegate.m */; };
+		D63E52851D92AF4C0083151E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63E52831D92AF4C0083151E /* Main.storyboard */; };
+		D63E52871D92AF4C0083151E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D63E52861D92AF4C0083151E /* Assets.xcassets */; };
+		D63E528A1D92AF4C0083151E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63E52881D92AF4C0083151E /* LaunchScreen.storyboard */; };
+		D63E52951D92AF4C0083151E /* TradeaiderQCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D63E52941D92AF4C0083151E /* TradeaiderQCTests.m */; };
+		D63E52A01D92AF4C0083151E /* TradeaiderQCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D63E529F1D92AF4C0083151E /* TradeaiderQCUITests.m */; };
+		D69982071D9D0DED00D96DB3 /* XSChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D69982061D9D0DED00D96DB3 /* XSChatViewController.m */; };
+		D6DA2EFF1D93C64000343A06 /* XSChatHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DA2EFE1D93C64000343A06 /* XSChatHelper.m */; };
+		D6DA2F021D93C8D700343A06 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DA2F011D93C8D700343A06 /* UserModel.m */; };
+		D6E94DFE1D952A11002ED408 /* XSChatMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E94DFD1D952A11002ED408 /* XSChatMessageModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D63E52911D92AF4C0083151E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D63E526F1D92AF4C0083151E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D63E52761D92AF4C0083151E;
+			remoteInfo = TradeaiderQC;
+		};
+		D63E529C1D92AF4C0083151E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D63E526F1D92AF4C0083151E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D63E52761D92AF4C0083151E;
+			remoteInfo = TradeaiderQC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15A9B0000DD17360B63BADCA /* Pods-TradeaiderQC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradeaiderQC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TradeaiderQC/Pods-TradeaiderQC.debug.xcconfig"; sourceTree = "<group>"; };
+		7720B024DD7DD6156050A634 /* Pods-TradeaiderQC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradeaiderQC.release.xcconfig"; path = "Pods/Target Support Files/Pods-TradeaiderQC/Pods-TradeaiderQC.release.xcconfig"; sourceTree = "<group>"; };
+		BDB5E742BECA3B21ABFD7394 /* libPods-TradeaiderQC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TradeaiderQC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D606384D1D938A4900AE1B0A /* macroPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macroPrefixHeader.pch; sourceTree = "<group>"; };
+		D616220A1D9E5376001975D1 /* XSChatMessageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSChatMessageTool.h; sourceTree = "<group>"; };
+		D616220B1D9E5376001975D1 /* XSChatMessageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSChatMessageTool.m; sourceTree = "<group>"; };
+		D616220D1D9E5399001975D1 /* XSChatMessageTool.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XSChatMessageTool.xib; sourceTree = "<group>"; };
+		D616220F1D9E8282001975D1 /* XSTalkTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSTalkTableViewCell.h; sourceTree = "<group>"; };
+		D61622101D9E8282001975D1 /* XSTalkTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSTalkTableViewCell.m; sourceTree = "<group>"; };
+		D61622111D9E8282001975D1 /* XSTalkTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XSTalkTableViewCell.xib; sourceTree = "<group>"; };
+		D63E52771D92AF4C0083151E /* TradeaiderQC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradeaiderQC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63E527B1D92AF4C0083151E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D63E527D1D92AF4C0083151E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		D63E527E1D92AF4C0083151E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		D63E52841D92AF4C0083151E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D63E52861D92AF4C0083151E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D63E52891D92AF4C0083151E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D63E528B1D92AF4C0083151E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63E52901D92AF4C0083151E /* TradeaiderQCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeaiderQCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63E52941D92AF4C0083151E /* TradeaiderQCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradeaiderQCTests.m; sourceTree = "<group>"; };
+		D63E52961D92AF4C0083151E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63E529B1D92AF4C0083151E /* TradeaiderQCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeaiderQCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63E529F1D92AF4C0083151E /* TradeaiderQCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradeaiderQCUITests.m; sourceTree = "<group>"; };
+		D63E52A11D92AF4C0083151E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69982051D9D0DED00D96DB3 /* XSChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSChatViewController.h; sourceTree = "<group>"; };
+		D69982061D9D0DED00D96DB3 /* XSChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSChatViewController.m; sourceTree = "<group>"; };
+		D6DA2EFD1D93C64000343A06 /* XSChatHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSChatHelper.h; sourceTree = "<group>"; };
+		D6DA2EFE1D93C64000343A06 /* XSChatHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSChatHelper.m; sourceTree = "<group>"; };
+		D6DA2F001D93C8D700343A06 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		D6DA2F011D93C8D700343A06 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		D6E94DFC1D952A11002ED408 /* XSChatMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSChatMessageModel.h; sourceTree = "<group>"; };
+		D6E94DFD1D952A11002ED408 /* XSChatMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSChatMessageModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D63E52741D92AF4C0083151E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BA4293F0BCD0F6D612B083 /* libPods-TradeaiderQC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63E528D1D92AF4C0083151E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63E52981D92AF4C0083151E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B36ED40B5C6BCA8C5773C95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDB5E742BECA3B21ABFD7394 /* libPods-TradeaiderQC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		646931705BCEA0C1B77BE325 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A9B0000DD17360B63BADCA /* Pods-TradeaiderQC.debug.xcconfig */,
+				7720B024DD7DD6156050A634 /* Pods-TradeaiderQC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D60638481D93845B00AE1B0A /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D69982051D9D0DED00D96DB3 /* XSChatViewController.h */,
+				D69982061D9D0DED00D96DB3 /* XSChatViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		D60638491D93846200AE1B0A /* models */ = {
+			isa = PBXGroup;
+			children = (
+				D6DA2F001D93C8D700343A06 /* UserModel.h */,
+				D6DA2F011D93C8D700343A06 /* UserModel.m */,
+				D6E94DFC1D952A11002ED408 /* XSChatMessageModel.h */,
+				D6E94DFD1D952A11002ED408 /* XSChatMessageModel.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		D606384A1D93846800AE1B0A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D616220A1D9E5376001975D1 /* XSChatMessageTool.h */,
+				D616220B1D9E5376001975D1 /* XSChatMessageTool.m */,
+				D616220D1D9E5399001975D1 /* XSChatMessageTool.xib */,
+				D616220F1D9E8282001975D1 /* XSTalkTableViewCell.h */,
+				D61622101D9E8282001975D1 /* XSTalkTableViewCell.m */,
+				D61622111D9E8282001975D1 /* XSTalkTableViewCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D606384B1D9384A600AE1B0A /* others */ = {
+			isa = PBXGroup;
+			children = (
+				D63E527D1D92AF4C0083151E /* AppDelegate.h */,
+				D63E527E1D92AF4C0083151E /* AppDelegate.m */,
+				D606384D1D938A4900AE1B0A /* macroPrefixHeader.pch */,
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		D606384C1D9384B500AE1B0A /* uitil */ = {
+			isa = PBXGroup;
+			children = (
+				D6DA2EFD1D93C64000343A06 /* XSChatHelper.h */,
+				D6DA2EFE1D93C64000343A06 /* XSChatHelper.m */,
+			);
+			path = uitil;
+			sourceTree = "<group>";
+		};
+		D63E526E1D92AF4C0083151E = {
+			isa = PBXGroup;
+			children = (
+				D63E52791D92AF4C0083151E /* TradeaiderQC */,
+				D63E52931D92AF4C0083151E /* TradeaiderQCTests */,
+				D63E529E1D92AF4C0083151E /* TradeaiderQCUITests */,
+				D63E52781D92AF4C0083151E /* Products */,
+				646931705BCEA0C1B77BE325 /* Pods */,
+				0B36ED40B5C6BCA8C5773C95 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D63E52781D92AF4C0083151E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D63E52771D92AF4C0083151E /* TradeaiderQC.app */,
+				D63E52901D92AF4C0083151E /* TradeaiderQCTests.xctest */,
+				D63E529B1D92AF4C0083151E /* TradeaiderQCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D63E52791D92AF4C0083151E /* TradeaiderQC */ = {
+			isa = PBXGroup;
+			children = (
+				D606384C1D9384B500AE1B0A /* uitil */,
+				D606384B1D9384A600AE1B0A /* others */,
+				D606384A1D93846800AE1B0A /* view */,
+				D60638491D93846200AE1B0A /* models */,
+				D60638481D93845B00AE1B0A /* controllers */,
+				D63E527A1D92AF4C0083151E /* Supporting Files */,
+			);
+			path = TradeaiderQC;
+			sourceTree = "<group>";
+		};
+		D63E527A1D92AF4C0083151E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D63E528B1D92AF4C0083151E /* Info.plist */,
+				D63E52831D92AF4C0083151E /* Main.storyboard */,
+				D63E52881D92AF4C0083151E /* LaunchScreen.storyboard */,
+				D63E52861D92AF4C0083151E /* Assets.xcassets */,
+				D63E527B1D92AF4C0083151E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D63E52931D92AF4C0083151E /* TradeaiderQCTests */ = {
+			isa = PBXGroup;
+			children = (
+				D63E52941D92AF4C0083151E /* TradeaiderQCTests.m */,
+				D63E52961D92AF4C0083151E /* Info.plist */,
+			);
+			path = TradeaiderQCTests;
+			sourceTree = "<group>";
+		};
+		D63E529E1D92AF4C0083151E /* TradeaiderQCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D63E529F1D92AF4C0083151E /* TradeaiderQCUITests.m */,
+				D63E52A11D92AF4C0083151E /* Info.plist */,
+			);
+			path = TradeaiderQCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D63E52761D92AF4C0083151E /* TradeaiderQC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63E52A41D92AF4C0083151E /* Build configuration list for PBXNativeTarget "TradeaiderQC" */;
+			buildPhases = (
+				93C6F1F679B6B506CD738C72 /* [CP] Check Pods Manifest.lock */,
+				D63E52731D92AF4C0083151E /* Sources */,
+				D63E52741D92AF4C0083151E /* Frameworks */,
+				D63E52751D92AF4C0083151E /* Resources */,
+				4B93A2845D062FEBC0F3CE64 /* [CP] Embed Pods Frameworks */,
+				C53E80B14FD5AFCC98A84C12 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TradeaiderQC;
+			productName = TradeaiderQC;
+			productReference = D63E52771D92AF4C0083151E /* TradeaiderQC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D63E528F1D92AF4C0083151E /* TradeaiderQCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63E52A71D92AF4C0083151E /* Build configuration list for PBXNativeTarget "TradeaiderQCTests" */;
+			buildPhases = (
+				D63E528C1D92AF4C0083151E /* Sources */,
+				D63E528D1D92AF4C0083151E /* Frameworks */,
+				D63E528E1D92AF4C0083151E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D63E52921D92AF4C0083151E /* PBXTargetDependency */,
+			);
+			name = TradeaiderQCTests;
+			productName = TradeaiderQCTests;
+			productReference = D63E52901D92AF4C0083151E /* TradeaiderQCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D63E529A1D92AF4C0083151E /* TradeaiderQCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63E52AA1D92AF4C0083151E /* Build configuration list for PBXNativeTarget "TradeaiderQCUITests" */;
+			buildPhases = (
+				D63E52971D92AF4C0083151E /* Sources */,
+				D63E52981D92AF4C0083151E /* Frameworks */,
+				D63E52991D92AF4C0083151E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D63E529D1D92AF4C0083151E /* PBXTargetDependency */,
+			);
+			name = TradeaiderQCUITests;
+			productName = TradeaiderQCUITests;
+			productReference = D63E529B1D92AF4C0083151E /* TradeaiderQCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D63E526F1D92AF4C0083151E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = shinyhub;
+				TargetAttributes = {
+					D63E52761D92AF4C0083151E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8RC3NK7EXM;
+					};
+					D63E528F1D92AF4C0083151E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D63E52761D92AF4C0083151E;
+					};
+					D63E529A1D92AF4C0083151E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D63E52761D92AF4C0083151E;
+					};
+				};
+			};
+			buildConfigurationList = D63E52721D92AF4C0083151E /* Build configuration list for PBXProject "TradeaiderQC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D63E526E1D92AF4C0083151E;
+			productRefGroup = D63E52781D92AF4C0083151E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D63E52761D92AF4C0083151E /* TradeaiderQC */,
+				D63E528F1D92AF4C0083151E /* TradeaiderQCTests */,
+				D63E529A1D92AF4C0083151E /* TradeaiderQCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D63E52751D92AF4C0083151E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D616220E1D9E5399001975D1 /* XSChatMessageTool.xib in Resources */,
+				D63E528A1D92AF4C0083151E /* LaunchScreen.storyboard in Resources */,
+				D63E52871D92AF4C0083151E /* Assets.xcassets in Resources */,
+				D63E52851D92AF4C0083151E /* Main.storyboard in Resources */,
+				D61622131D9E8282001975D1 /* XSTalkTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63E528E1D92AF4C0083151E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63E52991D92AF4C0083151E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B93A2845D062FEBC0F3CE64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TradeaiderQC/Pods-TradeaiderQC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93C6F1F679B6B506CD738C72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C53E80B14FD5AFCC98A84C12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TradeaiderQC/Pods-TradeaiderQC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D63E52731D92AF4C0083151E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63E527F1D92AF4C0083151E /* AppDelegate.m in Sources */,
+				D69982071D9D0DED00D96DB3 /* XSChatViewController.m in Sources */,
+				D61622121D9E8282001975D1 /* XSTalkTableViewCell.m in Sources */,
+				D63E527C1D92AF4C0083151E /* main.m in Sources */,
+				D616220C1D9E5376001975D1 /* XSChatMessageTool.m in Sources */,
+				D6DA2F021D93C8D700343A06 /* UserModel.m in Sources */,
+				D6DA2EFF1D93C64000343A06 /* XSChatHelper.m in Sources */,
+				D6E94DFE1D952A11002ED408 /* XSChatMessageModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63E528C1D92AF4C0083151E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63E52951D92AF4C0083151E /* TradeaiderQCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63E52971D92AF4C0083151E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63E52A01D92AF4C0083151E /* TradeaiderQCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D63E52921D92AF4C0083151E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D63E52761D92AF4C0083151E /* TradeaiderQC */;
+			targetProxy = D63E52911D92AF4C0083151E /* PBXContainerItemProxy */;
+		};
+		D63E529D1D92AF4C0083151E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D63E52761D92AF4C0083151E /* TradeaiderQC */;
+			targetProxy = D63E529C1D92AF4C0083151E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D63E52831D92AF4C0083151E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63E52841D92AF4C0083151E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D63E52881D92AF4C0083151E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63E52891D92AF4C0083151E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D63E52A21D92AF4C0083151E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D63E52A31D92AF4C0083151E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D63E52A51D92AF4C0083151E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15A9B0000DD17360B63BADCA /* Pods-TradeaiderQC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TradeaiderQC/others/macroPrefixHeader.pch";
+				INFOPLIST_FILE = TradeaiderQC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tradeaider.qcapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D63E52A61D92AF4C0083151E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7720B024DD7DD6156050A634 /* Pods-TradeaiderQC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TradeaiderQC/others/macroPrefixHeader.pch";
+				INFOPLIST_FILE = TradeaiderQC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tradeaider.qcapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D63E52A81D92AF4C0083151E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TradeaiderQCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WYY.TradeaiderQCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradeaiderQC.app/TradeaiderQC";
+			};
+			name = Debug;
+		};
+		D63E52A91D92AF4C0083151E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TradeaiderQCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WYY.TradeaiderQCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradeaiderQC.app/TradeaiderQC";
+			};
+			name = Release;
+		};
+		D63E52AB1D92AF4C0083151E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TradeaiderQCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WYY.TradeaiderQCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TradeaiderQC;
+			};
+			name = Debug;
+		};
+		D63E52AC1D92AF4C0083151E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TradeaiderQCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WYY.TradeaiderQCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TradeaiderQC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D63E52721D92AF4C0083151E /* Build configuration list for PBXProject "TradeaiderQC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63E52A21D92AF4C0083151E /* Debug */,
+				D63E52A31D92AF4C0083151E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63E52A41D92AF4C0083151E /* Build configuration list for PBXNativeTarget "TradeaiderQC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63E52A51D92AF4C0083151E /* Debug */,
+				D63E52A61D92AF4C0083151E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63E52A71D92AF4C0083151E /* Build configuration list for PBXNativeTarget "TradeaiderQCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63E52A81D92AF4C0083151E /* Debug */,
+				D63E52A91D92AF4C0083151E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63E52AA1D92AF4C0083151E /* Build configuration list for PBXNativeTarget "TradeaiderQCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63E52AB1D92AF4C0083151E /* Debug */,
+				D63E52AC1D92AF4C0083151E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D63E526F1D92AF4C0083151E /* Project object */;
+}

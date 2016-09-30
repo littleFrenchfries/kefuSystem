@@ -1,0 +1,37 @@
+//
+//  macroPrefixHeader.pch
+//  TradeaiderQC
+//
+//  Created by shinyhub on 16/9/22.
+//  Copyright © 2016年 shinyhub. All rights reserved.
+//
+
+#ifndef macroPrefixHeader_pch
+#define macroPrefixHeader_pch
+#import <EMSDKFull.h>
+#import "UserModel.h"
+//宏定义全局并发队列
+#define global_quque    dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
+//宏定义主队列
+#define main_queue       dispatch_get_main_queue()
+
+//屏幕宽度
+#define SHScreenW [UIScreen mainScreen].bounds.size.width
+//屏幕高度
+#define SHScreenH [UIScreen mainScreen].bounds.size.height
+//证书名称
+#if DEBUG
+#define apnsCertN  @"maodiandianqcdev"
+#else
+#define apnsCertN  @"maodiandianqc-dis"
+#endif
+//自定义Log
+#ifdef DEBUG
+#define SHLog(s,...) NSLog( @"<%@:(%d)> %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#else
+#define SHLog(s,...)
+#endif
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* macroPrefixHeader_pch */
